@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane prefHeight="560.0" prefWidth="770.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="edu.sdccd.cisc191.template.FXController">
+   <Rectangle fill="#4d6f65" height="560.0" layoutX="-7.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0"
+              width="783.0"/>
+   <Label fx:id="managerPanelTitle" layoutX="201.0" layoutY="14.0" text="Manager Panel"
+          textFill="#c40d0d">
+      <font>
+         <Font name="Franklin Gothic Demi Cond" size="64.0"/>
+      </font>
+   </Label>
+   <Label fx:id="employeesLabel" layoutX="507.0" layoutY="116.0" text="Employees"
+          textFill="#13d9eb">
+      <font>
+         <Font name="System Bold" size="34.0"/>
+      </font>
+   </Label>
+   <Button fx:id="hireButton" focusTraversable="false" layoutX="507.0" layoutY="166.0" mnemonicParsing="false"
+           onAction="#hireEmployee" text="HIRE" textFill="#0eec21">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="fireButton" focusTraversable="false" layoutX="603.0" layoutY="166.0" mnemonicParsing="false"
+           onAction="#fireEmployee" prefHeight="51.0" prefWidth="82.0" text="FIRE" textFill="#eb130e">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="listEmployeesButton" focusTraversable="false" layoutX="562.0" layoutY="229.0" mnemonicParsing="false"
+           onAction="#listEmployees" prefHeight="51.0" prefWidth="82.0" text="LIST">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Label fx:id="scheduleLabel" layoutX="541.0" layoutY="335.0" text="Schedule"
+          textFill="#13d9eb">
+      <font>
+         <Font name="System Bold" size="34.0"/>
+      </font>
+   </Label>
+   <Button fx:id="scheduleAddButton" focusTraversable="false" layoutX="507.0" layoutY="394.0" mnemonicParsing="false"
+           onAction="#scheduleAdd" text="ADD" textFill="#0eec21">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="scheduleRemoveButton" focusTraversable="false" layoutX="592.0" layoutY="394.0" mnemonicParsing="false"
+           onAction="#scheduleRemove" text="REMOVE" textFill="#eb0e0e">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="modifyScheduleButton" focusTraversable="false" layoutX="509.0" layoutY="454.0" mnemonicParsing="false"
+           onAction="#modifySchedule" text="MODIFY" textFill="#2c0eeb">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="listScheduleButton" focusTraversable="false" layoutX="637.0" layoutY="454.0" mnemonicParsing="false"
+           onAction="#listSchedule" prefHeight="51.0" prefWidth="82.0" text="LIST">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Label fx:id="menuLabel" layoutX="106.0" layoutY="272.0" text="Menu" textFill="#c015eb">
+      <font>
+         <Font name="System Bold" size="34.0"/>
+      </font>
+   </Label>
+   <Button fx:id="createMenuButton" focusTraversable="false" layoutX="13.0" layoutY="335.0" mnemonicParsing="false"
+           onAction="#createMenu" prefHeight="51.0" prefWidth="120.0" text="CREATE" textFill="#08f233">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="removeMenuButton" focusTraversable="false" layoutX="174.0" layoutY="335.0" mnemonicParsing="false"
+           onAction="#removeMenu" prefHeight="51.0" prefWidth="137.0" text="REMOVE" textFill="#f0170a">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="displayMenusButton" focusTraversable="false" layoutX="84.0" layoutY="403.0" mnemonicParsing="false"
+           onAction="#displayMenus" prefHeight="51.0" prefWidth="137.0" text="DISPLAY" textFill="#120cf0">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Label fx:id="franchiseLabel" layoutX="78.0" layoutY="116.0" text="Franchise"
+          textFill="#ebd715">
+      <font>
+         <Font name="System Bold" size="34.0"/>
+      </font>
+   </Label>
+   <Button fx:id="startFranchiseButton" focusTraversable="false" layoutX="23.0" layoutY="166.0" mnemonicParsing="false"
+           onAction="#startFranchise" text="START" textFill="#0eec21">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="endFranchiseButton" focusTraversable="false" layoutX="228.0" layoutY="166.0" mnemonicParsing="false"
+           onAction="#endFranchise" text="END" textFill="#eb0e0e">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+   <Button fx:id="listFranchisesButton" focusTraversable="false" layoutX="136.0" layoutY="166.0" mnemonicParsing="false"
+           onAction="#listFranchises" text="LIST">
+      <font>
+         <Font size="24.0"/>
+      </font>
+   </Button>
+</Pane>
